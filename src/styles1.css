@@ -1,0 +1,59 @@
+.top-container{
+    background-color:azure;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.book-img1{
+    height: 100px;
+    position: relative;
+    top:10px;
+    left: 30%;
+}
+
+.book-img2{
+    height: 100px;
+    position: relative;
+    bottom:10px;
+    right: 30%;
+}
+
+body{
+    margin: 0;
+}
+.main-img{
+    height: 30%;
+    width: 100%;
+}
+
+.my-text{
+    line-height: 20px
+}
+.book-img3{
+width: 20%;
+float: left;
+margin-right: 10px;
+
+}
+
+.book-img4{
+    width: 20%;
+    float: right;
+    margin-right: 10px;
+    }
+.skills{
+    width: 50%;
+    margin: 10px auto;
+    display: flow-root;
+}
+
+.skills:before, .skills:after {
+    content: '';
+    display: block;
+    clear: both;
+}
